@@ -52,7 +52,7 @@
 
 #OPEN THE FIREWALL IN THE SYSTEM
  echo "open firewall and add the port..."
-  sudo firewall-cmd --permanent --add-port=80/ tcp
+  sudo firewall-cmd --permanent --add-port=80/tcp
   sudo firewall-cmd --reload 
 
 #CHECK IF THE PORT 80 IS OPEN 
